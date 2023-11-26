@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import { Image } from 'astro:assets';
+import eda from "../eda.jpg"
 ---
 
 <Layout title="Welcome to Astro.">
@@ -35,7 +36,7 @@ import { Image } from 'astro:assets';
 			</defs>
 		</svg>
 		<h1>canim karim</h1>
-		<img src="../eda.jpg"/>
+		<Image src={eda} alt="karim" class="my-class"/>
 	</main>
 </Layout>
 
