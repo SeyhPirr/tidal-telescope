@@ -34,6 +34,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "light-carp-35"
+          project: "eyuphanseymen"
           entrypoint: "./index.astro" # 📝 Update the entrypoint if necessary
           root: "src/pages" # 📝 Update the root if necessary
