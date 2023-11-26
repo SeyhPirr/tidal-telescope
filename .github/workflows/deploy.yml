@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "light-carp-35"
-          entrypoint: "/index.astro" # 📝 Update the entrypoint if necessary
+          entrypoint: "./index.astro" # 📝 Update the entrypoint if necessary
           root: "src/pages" # 📝 Update the root if necessary
