@@ -1,3 +1,9 @@
+---
+import { Image } from "astro:assets";
+import eons from "../../images/eons.jpg"
+
+---
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -15,6 +21,9 @@
       p {
         width: 70% ;
       }
+      .image {
+        float: left;
+      }
       </style>
     </head>
 <body>
@@ -22,7 +31,7 @@
 <h1>uc tablo bir savas</h1>
 <p>Çocukken en sevdiğim hikaye Basat’ın Tepegözü yendiği Dede korkut 
     hikayesiydi. Basat güçlü, onurlu, iyi kalpli ve yiğitti. Obur, kötü kalpli, laftan anlamaz 
-    ve ilkel bir canavar olan Tepegözü yenerek halkını özgürleştirmişti. Rönesans 
+    ve ilkel bir canavar olan Tepegözü yenerek halkını özgürleştirmişti.<Image class="image" src={eons} alt="eons" width="400" height="500"/> Rönesans 
     kelimesiyle ilk karşılaşmam sanırım bir ders kitabı üzerinden olmuştu. Tabi o zamanlar 
     “yeniden doğuş” ifadesiyle bir sorunum yoktu. Bütün bir dönem kavramsal olarak 
     zihinsel dünyamda harmoni içerisindeydi. ”Bir grup akıllı adam bugün bildiğimiz 
